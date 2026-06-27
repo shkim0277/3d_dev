@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <OutputPath>$(SolutionDir)bin\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Basler.Pylon">
+      <HintPath Condition="Exists('$(PYLON_DEV_DIR)\Assemblies\Basler.Pylon\net8.0\x64\Basler.Pylon.dll')">$(PYLON_DEV_DIR)\Assemblies\Basler.Pylon\net8.0\x64\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('..\..\..\..\Assemblies\Basler.Pylon\net8.0\x64\Basler.Pylon.dll')">..\..\..\..\Assemblies\Basler.Pylon\net8.0\x64\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('$(PYLON_ROOT)\share\pylon\assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll')">$(PYLON_ROOT)\share\pylon\assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('..\..\..\..\assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll')">..\..\..\..\assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('\Library\Frameworks\pylon.framework\Versions\A\Resources\Assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll')">\Library\Frameworks\pylon.framework\Versions\A\Resources\Assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('..\..\..\..\Resources\Assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll')">..\..\..\..\Resources\Assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('..\..\src\Basler.Pylon\bin\$(Configuration)\net8.0\Basler.Pylon.dll')">..\..\src\Basler.Pylon\bin\$(Configuration)\net8.0\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('..\..\src\Basler.Pylon\bin\$(Platform)\$(Configuration)\net8.0\Basler.Pylon.dll')">..\..\src\Basler.Pylon\bin\$(Platform)\$(Configuration)\net8.0\Basler.Pylon.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <AssemblyTitle>Grab_UsingSequencer</AssemblyTitle>
+    <Company>Basler AG</Company>
+    <Product>Grab_UsingSequencer</Product>
+    <Copyright>Copyright %28c%29 2018-2024 Basler AG</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+</Project>

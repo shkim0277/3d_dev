@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\basler\\Development\\Samples\\net8.0\\Basler.Pylon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23523F59-9CC2-41A2-9527-EE39579588DD}|Grab\\Grab.csproj|c:\\dev\\basler\\development\\samples\\net8.0\\basler.pylon\\grab\\grab.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{23523F59-9CC2-41A2-9527-EE39579588DD}|Grab\\Grab.csproj|solutionrelative:grab\\grab.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Grab",
+              "DocumentMoniker": "C:\\dev\\basler\\Development\\Samples\\net8.0\\Basler.Pylon\\Grab\\Grab.csproj",
+              "RelativeDocumentMoniker": "Grab\\Grab.csproj",
+              "ToolTip": "C:\\dev\\basler\\Development\\Samples\\net8.0\\Basler.Pylon\\Grab\\Grab.csproj",
+              "RelativeToolTip": "Grab\\Grab.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-27T07:26:21.227Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

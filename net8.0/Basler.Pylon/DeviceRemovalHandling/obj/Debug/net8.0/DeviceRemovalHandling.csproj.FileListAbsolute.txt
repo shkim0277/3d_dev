@@ -1,0 +1,14 @@
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\bin\Debug\net8.0\DeviceRemovalHandling.exe
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\bin\Debug\net8.0\DeviceRemovalHandling.deps.json
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\bin\Debug\net8.0\DeviceRemovalHandling.runtimeconfig.json
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\bin\Debug\net8.0\DeviceRemovalHandling.dll
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\bin\Debug\net8.0\DeviceRemovalHandling.pdb
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\DeviceRemovalHandling\obj\Debug\net8.0\DeviceRemovalHandling.csproj.AssemblyReference.cache
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\DeviceRemovalHandling\obj\Debug\net8.0\DeviceRemovalHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\DeviceRemovalHandling\obj\Debug\net8.0\DeviceRemovalHandling.csproj.CoreCompileInputs.cache
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\DeviceRemovalHandling\obj\Debug\net8.0\DeviceRe.B612FD97.Up2Date
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\DeviceRemovalHandling\obj\Debug\net8.0\DeviceRemovalHandling.dll
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\DeviceRemovalHandling\obj\Debug\net8.0\refint\DeviceRemovalHandling.dll
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\DeviceRemovalHandling\obj\Debug\net8.0\DeviceRemovalHandling.pdb
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\DeviceRemovalHandling\obj\Debug\net8.0\DeviceRemovalHandling.genruntimeconfig.cache
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\DeviceRemovalHandling\obj\Debug\net8.0\ref\DeviceRemovalHandling.dll

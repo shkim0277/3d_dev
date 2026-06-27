@@ -1,0 +1,14 @@
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\bin\Debug\net8.0\Grab.exe
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\bin\Debug\net8.0\Grab.deps.json
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\bin\Debug\net8.0\Grab.runtimeconfig.json
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\bin\Debug\net8.0\Grab.dll
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\bin\Debug\net8.0\Grab.pdb
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\Grab\obj\Debug\net8.0\Grab.csproj.AssemblyReference.cache
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\Grab\obj\Debug\net8.0\Grab.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\Grab\obj\Debug\net8.0\Grab.csproj.CoreCompileInputs.cache
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\Grab\obj\Debug\net8.0\Grab.csproj.Up2Date
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\Grab\obj\Debug\net8.0\Grab.dll
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\Grab\obj\Debug\net8.0\refint\Grab.dll
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\Grab\obj\Debug\net8.0\Grab.pdb
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\Grab\obj\Debug\net8.0\Grab.genruntimeconfig.cache
+C:\dev\basler\Development\Samples\net8.0\Basler.Pylon\Grab\obj\Debug\net8.0\ref\Grab.dll

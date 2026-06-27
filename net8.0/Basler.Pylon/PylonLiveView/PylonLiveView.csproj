@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <OutputPath>$(SolutionDir)bin\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Basler.Pylon">
+      <HintPath Condition="Exists('$(PYLON_DEV_DIR)\Assemblies\Basler.Pylon\net8.0\x64\Basler.Pylon.dll')">$(PYLON_DEV_DIR)\Assemblies\Basler.Pylon\net8.0\x64\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('..\..\..\..\Assemblies\Basler.Pylon\net8.0\x64\Basler.Pylon.dll')">..\..\..\..\Assemblies\Basler.Pylon\net8.0\x64\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('$(PYLON_ROOT)\share\pylon\assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll')">$(PYLON_ROOT)\share\pylon\assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('..\..\..\..\assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll')">..\..\..\..\assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('\Library\Frameworks\pylon.framework\Versions\A\Resources\Assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll')">\Library\Frameworks\pylon.framework\Versions\A\Resources\Assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('..\..\..\..\Resources\Assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll')">..\..\..\..\Resources\Assemblies\Basler.Pylon\net8.0\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('..\..\src\Basler.Pylon\bin\$(Configuration)\net8.0\Basler.Pylon.dll')">..\..\src\Basler.Pylon\bin\$(Configuration)\net8.0\Basler.Pylon.dll</HintPath>
+      <HintPath Condition="Exists('..\..\src\Basler.Pylon\bin\$(Platform)\$(Configuration)\net8.0\Basler.Pylon.dll')">..\..\src\Basler.Pylon\bin\$(Platform)\$(Configuration)\net8.0\Basler.Pylon.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="EnumerationComboBoxUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="FloatSliderUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="IntSliderUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+</Project>
